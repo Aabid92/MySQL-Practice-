@@ -1,17 +1,17 @@
--- DROP TABLE users;
--- DROP TABLE employers;
--- DROP TABLE conversation;
+DROP TABLE users;
+DROP TABLE employers;
+DROP TABLE conversation;
 
--- CREATE TYPE employment_status AS ENUM('self-employed', 'employed', 'unemployed'); -- Postgresql
+CREATE TYPE employment_status AS ENUM('self-employed', 'employed', 'unemployed'); -- Postgresql
 
--- CREATE TABLE users (
--- --   id SERIAL PRIMARY KEY, -- Postgresql
---   id INT PRIMARY KEY AUTO_INCREMENT, -- MySQL
---   full_name VARCHAR(300) NOT NULL,
---   yearly_salary INT CHECK (yearly_salary > 0),
---   current_status ENUM('self-employed', 'employed', 'unemployed') -- MySQL
--- --   current_status employment_status
--- );
+CREATE TABLE users (
+--   id SERIAL PRIMARY KEY, -- Postgresql
+  id INT PRIMARY KEY AUTO_INCREMENT, -- MySQL
+  full_name VARCHAR(300) NOT NULL,
+  yearly_salary INT CHECK (yearly_salary > 0),
+  current_status ENUM('self-employed', 'employed', 'unemployed') -- MySQL
+--   current_status employment_status
+);
 
 CREATE TABLE employers (
 --   id SERIAL PRIMARY KEY, -- Postgresql
