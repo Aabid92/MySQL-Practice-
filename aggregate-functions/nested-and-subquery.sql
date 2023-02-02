@@ -27,3 +27,4 @@ FROM(
 -- HAVING MIN(daily_sum);
 
 
+
