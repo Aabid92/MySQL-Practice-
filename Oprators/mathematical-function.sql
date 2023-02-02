@@ -7,7 +7,7 @@ FROM memberships;
 -- CEIL()
 -- FLOOR()
 -- ROUND()
--- TRUNC() -- for postgres sql
+-- TRUNC() -- for postgres sql--
 -- TRUNCATE() -- for mysql
 
 SELECT ceil(consumption)
