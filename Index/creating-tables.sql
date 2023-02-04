@@ -33,3 +33,4 @@ VALUES ('Teststreet', '5A', '12345', 'Munich', 2),
   ('Foodstreet', '8', '41811', 'New York', 4),
   ('Teststreet', '10', '12345', 'Munich', 5),
   ('Teststreet', '11', '12345', 'Munich', 6);
+

@@ -1,0 +1,1 @@
+CREATE INDEX idx_multiadd ON addresses(street, city);    
